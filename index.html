@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture of the day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" id="box">
+    <div class="container">
+    <h1>Picture of the Day</h1>
+    <div class="content" id="contentId"></div>
+    <form action="" id="search-form">
+        
+        <label for="search-input">Enter Date</label>
+        <input type="date" id="search-input">
+        <button id="search-btn" onclick="getImageOfTheDay(); return false;">Search</button>
+    
+    </form>
+    <h3 class="prev">Previous Searches</h3>
+    <ul class="list" id="listId"></ul>
+ 
+    
+    </div>
+</div>
+
+    
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto auto;
+    color: white;
+}
+
+form{
+  display: flex;
+  justify-content: center ;
+  margin-top: 20px;
+  gap: 10px;
+  font-size: 25px;
+}
+
+form button{
+    width: 110px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.content{
+    max-width:1000px ;
+    margin: auto auto;  
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.content h1{
+    text-align: center;
+}
+
+.content img{
+    max-width: 100%;
+    margin: auto auto;
+}
+
+.list li{
+    cursor: pointer;
+    margin-top: 8px;
+
+}
+
+.list li:hover {
+    color: grey;
+}
